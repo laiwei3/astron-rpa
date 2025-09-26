@@ -379,7 +379,7 @@
             re.update_time,
             re.app_version
         from robot_execute re
-            inner join ${databaseName}.t_uap_user tu on re.creator_id = tu.id and tu.is_delete = 0
+            inner join ${databaseName}.user tu on re.creator_id = tu.id and tu.is_deleted = 0
         where
             re.deleted = 0
             and re.app_id = #{entity.appId}

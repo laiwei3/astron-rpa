@@ -160,3 +160,5 @@ casdoor:
   organization-name: ${CASDOOR_ORGANIZATION_NAME}
   application-name: ${CASDOOR_APPLICATION_NAME}
   redirect-url: ${CASDOOR_REDIRECT_URL}
+  database:
+    name: casdoor
